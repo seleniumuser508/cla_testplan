@@ -1,0 +1,205 @@
+Test Plan
+Project Management Console	2
+Projects Page	2
+1.	Verify if valid user with Project Manager role can access Project Management Console	2
+2.	Verify if valid super user/admin can access Project Management Console	2
+3.	Verify if header and footer is displayed in Project Management Console	2
+4.	Verify the options in the menu bar in Project Management Console	2
+5.	Verify that user can navigate to Projects page when clicked on ALL Projects option from the menu bar in Project Management Console	2
+6.	Verify that user can logout when clicked on Sign Out option from the menu bar in Project Management Console	3
+7.	Verify if a new user with Project Manager role cannot view any projects when no projects are assigned to him/her	3
+8.	Verify if a new user with Project Manager role can get access to projects from Project Management Console when no projects are assigned to him/her	3
+9.	Verify if valid user with Project Manager role can view only the projects assigned to the him/her	3
+10.	Verify the logo, name and description of the projects in Projects page in Project Management Console	4
+11.	Verify if valid user who already access to projects can get access to other projects	4
+Project Details Page	4
+12.	Verify if valid user with Project Manager role can access the project assigned to the him/her	4
+13.	Verify the logo, name and description of the project in Project details page in Project Management Console	5
+14.	Verify if header and footer is displayed in the Project Details page	5
+15.	Verify if user can navigate back to All Projects page from Project Details page	5
+Project Details - GitHub Organizations	6
+16.	Verify if user can connect GitHub Organization for all repositories for the Project in Project Management Console	6
+Corporate Console	7
+Contributor Console	7
+Landing Page	7
+End-To-End Flows	7
+
+
+Project Management Console
+Project Management Console URL: 
+
+Projects Page
+1.	Verify if valid user with Project Manager role can access Project Management Console
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	Logout
+•	User should be able to logout successfully
+2.	Verify if valid super user/admin can access Project Management Console
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	Logout
+•	User should be able to logout successfully
+3.	Verify if header and footer is displayed in Project Management Console
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	Header and Footer should be displayed in Project Management Console page
+•	Logout
+•	User should be able to logout successfully
+4.	Verify the options in the menu bar in Project Management Console
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	Verify options All Projects and Sign Out are displayed in the menu bar
+•	Logout
+•	User should be able to logout successfully
+5.	Verify that user can navigate to Projects page when clicked on ALL Projects option from the menu bar in Project Management Console
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	Click option All Projects from the menu bar
+•	User should be able to navigate to Projects page
+•	Logout
+•	User should be able to logout successfully
+6.	Verify that user can logout when clicked on Sign Out option from the menu bar in Project Management Console
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	Click option Sign Out from the menu bar
+•	User should be able to logout successfully
+7.	Verify if a new user with Project Manager role cannot view any projects when no projects are assigned to him/her
+Pre-Requisite: User should not be assigned with any projects
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should not be able to view any projects
+•	Logout
+•	User should be able to logout successfully
+8.	Verify if a new user with Project Manager role can get access to projects from Project Management Console when no projects are assigned to him/her
+Pre-Requisite: User should not be assigned with any projects
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should not be able to view any projects
+•	Click on Get Access link
+•	<Waiting for the clarification to update the steps>
+•	Logout
+•	User should be able to logout successfully
+9.	Verify if valid user with Project Manager role can view only the projects assigned to the him/her
+Pre-Requisite: Projects should be assigned for the user
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Logout
+•	User should be able to logout successfully
+10.	Verify the logo, name and description of the projects in Projects page in Project Management Console
+Pre-Requisite: Projects should be assigned for the user
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Verify the logo, name and description of the all projects
+•	Logout
+•	User should be able to logout successfully
+
+11.	Verify if valid user who already access to projects can get access to other projects
+Pre-Requisite: Projects should be assigned for the user
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Click on Get Access link
+•	<Waiting for the clarification to update the steps>
+•	Logout
+•	User should be able to logout successfully
+
+Project Details Page
+12.	Verify if valid user with Project Manager role can access the project assigned to the him/her
+Pre-Requisite: Projects should be assigned for the user
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Click on any project
+•	Use should be able to access the project and should be redirected to Project Details Page of the project
+•	Logout
+•	User should be able to logout successfully
+13.	Verify the logo, name and description of the project in Project details page in Project Management Console
+Pre-Requisite: Projects should be assigned for the user
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Click on any project
+•	Use should be able to access the project and should be redirected to Project Details Page of the project
+•	Verify the logo, name and description of the project in the project details page
+•	Logout
+•	User should be able to logout successfully
+14.	Verify if header and footer is displayed in the Project Details page
+Pre-Requisite: Projects should be assigned for the user
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Click on any project
+•	Use should be able to access the project and should be redirected to Project Details Page of the project
+•	Verify if header and footer is displayed
+•	Logout
+•	User should be able to logout successfully
+15.	Verify if user can navigate back to All Projects page from Project Details page
+Pre-Requisite: Projects should be assigned for the user
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Click on any project
+•	Use should be able to access the project and should be redirected to Project Details Page of the project
+•	Click on Back to all Projects link
+•	User should be redirected to All Projects page
+•	Logout
+•	User should be able to logout successfully
+Project Details - GitHub Organizations
+16.	Verify if user can connect GitHub Organization for all repositories for the Project in Project Management Console
+Pre-Requisite: 
+Projects should be assigned for the user
+User with GitHub account should be available, and an organization with repositories should be created in GitHub
+
+•	Launch Project Management console
+•	Login with valid user credentials having Project Manager role
+•	User should be able to login successfully and should be redirected to Projects page (CLA Management Console page)
+•	User should be able to view only the projects assigned the him/her
+•	Click on any project
+•	Use should be able to access the project and should be redirected to Project Details Page of the project
+•	Click on CONNECT GITHUB ORGANIZATION link
+•	“Add GitHub Organization” window is displayed
+•	Enter valid GitHub Organization name and click on connect
+•	“Connect LF CLA App to GitHub Organization” is displayed
+•	Click on “INSTALL THE GITHUB CLA APP” button
+•	User is redirected to https://github.com/apps/dev-communitybridge-easycla page
+•	Login to Github if not logged in
+•	Click Configure
+•	Select the Organization
+•	Select All Repositories option
+•	Click Install
+•	DEV CommunityBridge: EasyCLA is installed
+•	Navigate to Project Management Console to verify if GitHub organization is connected
+•	Logout
+•	User should be able to logout successfully
+
+
+
+Corporate Console
+Contributor Console
+Landing Page
+End-To-End Flows
